@@ -1,0 +1,23 @@
+<resources>
+    <declare-styleable name="MyWatchView">
+        <attr name="exampleDrawable" format="color|reference"/>
+        
+        <!--表盘背景色-->
+        <attr name="wv_backgroudColor" format="color"></attr>
+        <!--刻度颜色-->
+        <attr name="wv_dialColor" format="color"></attr>
+        <!--刻度深色-->
+        <attr name="wv_dialBoldColor" format="color"></attr>
+        <!--刻度字体颜色-->
+        <attr name="wv_dialTextColor" format="color"></attr>
+        <!--刻度字体大小-->
+        <attr name="wv_dialTextSize" format="dimension"></attr>
+        <!--时针颜色-->
+        <attr name="wv_hourPointColor" format="color"></attr>
+        <!--分针颜色-->
+        <attr name="wv_minPointColor" format="color"></attr>
+        <!--秒针颜色-->
+        <attr name="wv_secPointColor" format="color"></attr>
+        
+    </declare-styleable>
+</resources>
